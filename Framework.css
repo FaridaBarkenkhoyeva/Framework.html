@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.border
+{
+    color:white;
+}
+
+.rounded {
+    border-radius: 50px;
+    overflow:hidden;
+}
+
+
+
+.button {
+    background-color:rgba(255, 213, 0, 0.938);
+    border-radius: 15px;
+    text-align:center;
+    margin-left: 25%;
+}
+
+.buttonscr {
+    background-color: #291812;
+    border-radius: 15px;
+    text-align: center;
+    width: 50%;
+    height: 45px;
+    margin-left: 25%;
+    margin-top: 10%;
+    
+    
+}
+.gap{
+    row-gap: 10px;
+}
+
+.home{
+    color:rgb(255, 200, 0);
+}
+
+.about {
+    color:white
+}
+
+.steps{
+    color:white;
+}
+
+.testimonial{
+    color: white;
+}
+
+.coffee {
+    width: 100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+    padding: 40px;
+}
+
+.searchbar{
+    display: none;
+}
+
+@media (min-width:768px) {
+    .coffee {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .searchbar {
+        display: inline-flex;
+        color: white
+        
+    }
+}
+
+.coffeeimg {
+    width: 100px;
+    height:150px;
+}
